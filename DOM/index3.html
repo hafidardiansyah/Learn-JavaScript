@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        text-align: center;
+      }
+      .boxRed {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        margin: 10px auto;
+      }
+      .red {
+        background-color: red;
+      }
+      .boxGreen {
+        width: 50px;
+        height: 50px;
+        background-color: green;
+        margin: 10px auto;
+      }
+      .green {
+        background-color: green;
+      }
+      .boxBlue {
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+        margin: 10px auto;
+      }
+      .blue {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Play with Color</h1>
+
+    <button type="button" id="btn">Switch Color</button>
+
+    <br /><br />
+
+    <div class="boxRed"></div>
+    <input type="range" name="red" min="0" max="255" />
+
+    <div class="boxGreen"></div>
+    <input type="range" name="green" min="0" max="255" />
+
+    <div class="boxBlue"></div>
+    <input type="range" name="blue" min="0" max="255" />
+
+    <script src="color.js"></script>
+  </body>
+</html>

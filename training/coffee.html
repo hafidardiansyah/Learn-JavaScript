@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+	let total = 0;
+    let menu = 
+    [
+        {
+            'id' : 0,
+            'nama' : 'Kopi hitam',
+            'harga' : 5000
+        },
+        {
+            'id' : 1,
+            'nama' : 'Kopi susu',
+            'harga' : 5000
+        },
+        {
+            'id' : 2,
+            'nama' : 'Es kopi',
+            'harga' : 7000
+        },
+    ]
+
+    let pesan = [1,2];
+
+    for(i = 0; i < pesan.length; i++)
+    {
+        total += menu[pesan[i]]["harga"];
+    }
+
+    console.log(total);
+</script>
+</body>
+</html>
