@@ -1,6 +1,4 @@
-<h1>Learn JavaScript Basic to Advance</h1>
-
-<h2>Screenshot Small Projects</h2>
+<h2>Screenshot</h2>
 <table>
     <tr>
         <td><img src="People.png"></td>
